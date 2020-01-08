@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <script defer>
+          window.onload = () => {
+              let pages = JSON.parse(getBookmarks())
+              for(page in pages) {
+                  let link = document.createElement('a')
+                  link.innerHTML = pages[page].name
+                  link.setAttribute("href",pages[page].url)
+                  let remove = document.createElement("input")
+                  remove.setAttribute("type","button")
+                  remove.setAttribute("value","Remove")
+                  remove.setAttribute("onclick",`deleteBookmark("${pages[page].name}")`)
+                  document.getElementById("bookmarks").appendChild(link)
+                  document.getElementById("bookmarks").appendChild(remove)
+                  document.getElementById("bookmarks").appendChild(document.createElement('br'))
+              }
+          }
+          let getBookmarks = () => {
+              return window.localStorage.getItem('bookmarks')
+          }
+          let createBookmark = () => {
+              let name = window.prompt("What is the name of your bookmark?")
+              let url = window.prompt("What would you like the url of this to be? (Include https:// at the beginning)")
+              addBookmark(name, url)
+              location.reload()
+          }
+          let addBookmark = (name,url) => {
+              let bookmarkList = getBookmarks()
+              if (bookmarkList == null) {
+                  bookmarkList = [];
+              } else {
+                bookmarkList = JSON.parse(bookmarkList)
+              }
+              bookmarkList.push({"name":name,"url":url})
+              window.localStorage.setItem("bookmarks",JSON.stringify(bookmarkList))
+          }
+          let deleteBookmark = (name) => {
+              let bookmarkList = JSON.parse(getBookmarks())
+              let newList = bookmarkList.filter((value,index,array)=>{
+                  return value.name != name
+              })
+              window.localStorage.setItem("bookmarks",JSON.stringify(newList))
+              location.reload()
+          }
+        </script>
+    </head>
+    <body>
+        <div id="bookmarks">
+        </div>
+        <input type=button value="Add Bookmark" onclick="createBookmark()">
+    </body>
+</html>
