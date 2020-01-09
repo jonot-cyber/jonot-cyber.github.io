@@ -1,146 +1,152 @@
 <html>
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <style>
       #buttons {
-  position: absolute;
-  bottom: 1vh;
-}
-#add {
-  border: none;
-  background-color: blue;
-  color: white;
-  font-size: 20px;
-  padding: 10px;
-  margin: 4px;
-  border-radius: 10px;
-  transition: background-color 0.5s;
-}
-#add:hover {
-  background-color: #7183f5
-}
-#cancel {
-  border: none;
-  background-color: grey;
-  color: white;
-  font-size: 20px;
-  padding: 10px;
-  margin: 4px;
-  border-radius: 10px;
-  transition: background-color 0.5s;
-}
-#cancel:hover {
-  background-color: #e0e0e0;
-}
-input[type="text"] {
-  border: 2px solid grey;
-  border-radius: 50px;
-  padding: 5px;
-  width: 90%;
-  outline: none;
-}
-#panel {
-  font-family: 'Roboto', sans-serif;
-  position: fixed;
-  background-color: white;
-  width: 90%;
-  height: 90vh;
-  left: 5%;
-  top: 5vh;
-  border-radius: 20px;
-  box-shadow: 10px 10px 10px gray;
-  display: none;
-}
+        position: absolute;
+        bottom: 1vh;
+      }
+      #add {
+        border: none;
+        background-color: blue;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        margin: 4px;
+        border-radius: 10px;
+        transition: background-color 0.5s;
+      }
+      #add:hover {
+        background-color: #7183f5;
+      }
+      #cancel {
+        border: none;
+        background-color: grey;
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        margin: 4px;
+        border-radius: 10px;
+        transition: background-color 0.5s;
+      }
+      #cancel:hover {
+        background-color: #e0e0e0;
+      }
+      input[type="text"] {
+        border: 2px solid grey;
+        border-radius: 50px;
+        padding: 5px;
+        width: 90%;
+        outline: none;
+      }
+      #panel {
+        font-family: "Roboto", sans-serif;
+        position: fixed;
+        background-color: white;
+        width: 90%;
+        height: 90vh;
+        left: 5%;
+        top: 5vh;
+        border-radius: 20px;
+        box-shadow: 10px 10px 10px gray;
+        display: none;
+      }
     </style>
     <script defer>
-      try {
-      let writeBookmarks = () => {
-        const myNode = document.getElementById("bookmarks");
-        while (myNode.firstChild) {
-          myNode.removeChild(myNode.firstChild);
-        }
-        let pages = JSON.parse(getBookmarks());
-        for (page in pages) {
-          /*let link = document.createElement("div")
-          link.className = "page"
-          link.innerHTML = `<a href="${pages[page].url}">${pages[page].name}</a>`*/
-          let link = document.createElement("a");
-          link.innerHTML = pages[page].name;
-          link.setAttribute("href", pages[page].url);
-          let remove = document.createElement("input");
-          remove.setAttribute("type", "button");
-          remove.setAttribute("value", "Remove");
-          remove.setAttribute(
-            "onclick",
-            `deleteBookmark("${pages[page].name}")`
+        let writeBookmarks = () => {
+          const myNode = document.getElementById("bookmarks");
+          while (myNode.firstChild) {
+            myNode.removeChild(myNode.firstChild);
+          }
+          let pages = JSON.parse(getBookmarks());
+          for (page in pages) {
+            let link = document.createElement("a");
+            link.innerHTML = pages[page].name;
+            link.setAttribute("href", pages[page].url);
+            let remove = document.createElement("input");
+            remove.setAttribute("type", "button");
+            remove.setAttribute("value", "Remove");
+            remove.setAttribute(
+              "onclick",
+              `deleteBookmark("${pages[page].name}")`
+            );
+            document.getElementById("bookmarks").appendChild(link);
+            document.getElementById("bookmarks").appendChild(remove);
+            document
+              .getElementById("bookmarks")
+              .appendChild(document.createElement("br"));
+          }
+        };
+        window.onload = () => {
+          writeBookmarks();
+        };
+        let getBookmarks = () => {
+          return window.localStorage.getItem("bookmarks");
+        };
+        let createBookmark = () => {
+          document.getElementById("panel").style.display = "block";
+        };
+        let addIt = () => {
+          let name = document.getElementById("name").value;
+          let url = document.getElementById("url").value;
+          addBookmark(name, url);
+          document.getElementById("panel").style.display = "none";
+          writeBookmarks();
+        };
+        let addBookmark = (name, url) => {
+          let bookmarkList = getBookmarks();
+          if (bookmarkList == null) {
+            bookmarkList = [];
+          } else {
+            bookmarkList = JSON.parse(bookmarkList);
+          }
+          bookmarkList.push({ name: name, url: url });
+          window.localStorage.setItem(
+            "bookmarks",
+            JSON.stringify(bookmarkList)
           );
-          document.getElementById("bookmarks").appendChild(link);
-          document.getElementById("bookmarks").appendChild(remove);
-          document
-            .getElementById("bookmarks")
-            .appendChild(document.createElement("br"));
-        }
-      };
-      window.onload = () => {
-        writeBookmarks();
-      };
-      let getBookmarks = () => {
-        return window.localStorage.getItem("bookmarks");
-      };
-      let createBookmark = () => {
-        document.getElementById("panel").style.display = "block";
-        /*let name = window.prompt("What is the name of your bookmark?");
-        let url = "";
-        let re = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/g;
-        while (!re.test(url))
-          url = window.prompt(
-            "What would you like the url of this to be? (Include https:// at the beginning)"
-          );
-        addBookmark(name, url);
-        writeBookmarks()*/
-      };
-      let addIt = () => {
-        let name = document.getElementById('name').value
-        let url = document.getElementById('url').value
-        addBookmark(name,url)
-        document.getElementById('panel').style.display = "none"
-        writeBookmarks()
-      }
-      let addBookmark = (name, url) => {
-        let bookmarkList = getBookmarks();
-        if (bookmarkList == null) {
-          bookmarkList = [];
-        } else {
-          bookmarkList = JSON.parse(bookmarkList);
-        }
-        bookmarkList.push({ name: name, url: url });
-        window.localStorage.setItem("bookmarks", JSON.stringify(bookmarkList));
-      };
-      let deleteBookmark = name => {
-        let bookmarkList = JSON.parse(getBookmarks());
-        let newList = bookmarkList.filter((value, index, array) => {
-          return value.name != name;
-        });
-        window.localStorage.setItem("bookmarks", JSON.stringify(newList));
-        writeBookmarks()
-      };
-      } catch(e) {
-        alert(e)
-      }
+        };
+        let deleteBookmark = name => {
+          let bookmarkList = JSON.parse(getBookmarks());
+          let newList = bookmarkList.filter((value, index, array) => {
+            return value.name != name;
+          });
+          window.localStorage.setItem("bookmarks", JSON.stringify(newList));
+          writeBookmarks();
+        };
     </script>
   </head>
   <body>
     <div id="bookmarks"></div>
-        <input type="button" value="Add Bookmark" onclick="createBookmark()" />
-        <div id="panel">
-          <h1>Add a bookmark</h1>
-          <p>Name:</p><input type="text" placeholder="Name" id="name">
-          <p>Url:</p><input type="text" placeholder="Url" id="url">
-          <br>
-          <div id="buttons">
-          <input id="add" type="button" value="Add" onclick="addIt()">
-          <input id="cancel" type="button" value="Cancel" onclick="document.getElementById('panel').style.display = 'none'">
-        </div>
+    <input
+      type="button"
+      value="Add Bookmark"
+      onclick="try{createBookmark()}catch(e){alert(e)}"
+    />
+    <div id="panel">
+      <h1>Add a bookmark</h1>
+      <p>Name:</p>
+      <input type="text" placeholder="Name" id="name" />
+      <p>Url:</p>
+      <input type="text" placeholder="Url" id="url" />
+      <br />
+      <div id="buttons">
+        <input
+          id="add"
+          type="button"
+          value="Add"
+          onclick="try{addIt()}catch(e){alert(e)}"
+        />
+        <input
+          id="cancel"
+          type="button"
+          value="Cancel"
+          onclick="document.getElementById('panel').style.display = 'none'"
+        />
+      </div>
     </div>
   </body>
 </html>
