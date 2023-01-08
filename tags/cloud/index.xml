@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cloud on Jonot&#39;s Blog</title>
+    <link>https://jonot.me/tags/cloud/</link>
+    <description>Recent content in Cloud on Jonot&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 08 Jan 2023 17:59:00 -0500</lastBuildDate><atom:link href="https://jonot.me/tags/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reader Mode</title>
+      <link>https://jonot.me/posts/reader-mode/</link>
+      <pubDate>Sun, 08 Jan 2023 17:59:00 -0500</pubDate>
+      
+      <guid>https://jonot.me/posts/reader-mode/</guid>
+      <description>Have you ever been on a website? It can be really annoying. Many pages have an absurd amount of ads, and a lot of sites have limits on how much you can read before they ask you to sign up for some account or get a newsletter or whatever.
+It&amp;rsquo;s annoying enough, but it&amp;rsquo;s more annoying on a dual-core Intel Celeron processor with 4 GB of ram. So a while ago, I created a bookmarklet.</description>
+    </item>
+    
+  </channel>
+</rss>

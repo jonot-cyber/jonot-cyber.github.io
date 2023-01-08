@@ -5,13 +5,31 @@
     <link>https://jonot.me/tags/</link>
     <description>Recent content in Tags on Jonot&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 08 Jan 2023 17:30:28 -0500</lastBuildDate><atom:link href="https://jonot.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Jan 2023 17:59:00 -0500</lastBuildDate><atom:link href="https://jonot.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud</title>
+      <link>https://jonot.me/tags/cloud/</link>
+      <pubDate>Sun, 08 Jan 2023 17:59:00 -0500</pubDate>
+      
+      <guid>https://jonot.me/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Programs</title>
       <link>https://jonot.me/tags/programs/</link>
-      <pubDate>Sun, 08 Jan 2023 17:30:28 -0500</pubDate>
+      <pubDate>Sun, 08 Jan 2023 17:59:00 -0500</pubDate>
       
       <guid>https://jonot.me/tags/programs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>https://jonot.me/tags/web/</link>
+      <pubDate>Sun, 08 Jan 2023 17:59:00 -0500</pubDate>
+      
+      <guid>https://jonot.me/tags/web/</guid>
       <description></description>
     </item>
     
