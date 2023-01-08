@@ -21,3 +21,12 @@ params:
   DateFormat: "2006-01-02"
 
   ShowReadingTime: true
+  ShowRssButtonInSectionTermList: true
+
+  homeInfoParams:
+    Title: Jonot's Blog
+    Content: A place to put random stuff that I think of
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/jonot-cyber"
