@@ -1,0 +1,23 @@
+baseURL: "https://jonot.me/"
+title: Jonot's Blog
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Jonot's Blog
+  description: "A blog for Jonot"
+  keywords: [Blog, Portfolio]
+  author: Me
+  DateFormat: "2006-01-02"
+
+  ShowReadingTime: true
