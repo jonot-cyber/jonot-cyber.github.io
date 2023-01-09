@@ -5,7 +5,16 @@
     <link>https://jonot.me/</link>
     <description>Recent content on Jonot&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 08 Jan 2023 17:59:00 -0500</lastBuildDate><atom:link href="https://jonot.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Jan 2023 15:03:00 -0500</lastBuildDate><atom:link href="https://jonot.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Comparison of GIF Replacements</title>
+      <link>https://jonot.me/posts/video-format-comparison/</link>
+      <pubDate>Mon, 09 Jan 2023 15:03:00 -0500</pubDate>
+      
+      <guid>https://jonot.me/posts/video-format-comparison/</guid>
+      <description>The GIF file format was created in 1987, and it definitely shows. Despite being so widespread on the internet, it has several issues. First of all is color. Most images that you will see on the internet use 24-bit color. Each pixel has a red, green, and blue component, all of which can range from 0-255. This gives you a total of 16,777,216 possible colors. So how many does GIF have?</description>
+    </item>
+    
     <item>
       <title>Reader Mode</title>
       <link>https://jonot.me/posts/reader-mode/</link>
