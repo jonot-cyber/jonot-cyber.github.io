@@ -16,7 +16,7 @@ Recently I've released my new website that allows you to practice *sitelen pona*
 Alright, maybe I should explain somethings
 
 ## Toki Pona
-Toki Pona is a conlang created by Sonja Lang in 2001. A conlang is a language that was created deliberately, instead of emerging naturally. The most famous example of this is Esperanto.
+Toki Pona is a conlang created by Sonja Lang in 2001. A conlang is a language that was created deliberately, instead of emerging naturally.
 
 One of the main principles of Toki Pona is minimalism. The language has only 137 words (the specific number will vary depending on who you ask) The way a language works with so few words is that each word serves multiple purposes. Take, for example, the word "moku" could mean food, eat, drink, use, or feed depending on context. More complicated ideas can be expressed by combining these words. I could take the word "tomo" which can mean building, and combine it with the word "sona", which can mean knowledge, and make "tomo sona" which means school. It is absolutely one of my favorite languages
 
