@@ -2,6 +2,9 @@
 title: "Sitelen Pona Tester"
 date: 2023-01-12T16:13:16-05:00
 draft: false
+tags:
+- Programs
+- Web
 ---
 
 toki! mi pali e lipu sin
