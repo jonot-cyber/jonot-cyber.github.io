@@ -49,7 +49,7 @@ To remedy this, I set `user-select: none` in the css. It's still pretty easy to 
 
 ## Improvements
 There are a few things that I think could be improved with this site.
-- There is no dark mode. This is something that I could easily add, so I might change this.
+- There is no dark mode. This is something that I could easily add, so I might change this. **EDIT: As of 2023-01-13, this has been fixed**
 - The alerts are annoying. Currently, when you select your answer, it uses the browser `alert()` method to tell you if it was right or wrong. ![Picture of said alert](alert.png) I am not a fan of this because then you have to hit enter or space to close the alert before moving on. It also just feels sloppy in general.
 - Some newer words like "tonsi" and "kijetesantakalu" wouldn't show up in the font, so I had to disable them. I would like them to be there.
 
