@@ -5,7 +5,18 @@
     <link>https://jonot.me/posts/</link>
     <description>Recent content in Posts on Jonot&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 13 Jan 2023 19:02:02 -0500</lastBuildDate><atom:link href="https://jonot.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Jan 2023 09:08:41 -0500</lastBuildDate><atom:link href="https://jonot.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The longest word you can spell in hexadecimal</title>
+      <link>https://jonot.me/posts/hex-words/</link>
+      <pubDate>Mon, 16 Jan 2023 09:08:41 -0500</pubDate>
+      
+      <guid>https://jonot.me/posts/hex-words/</guid>
+      <description>It&amp;rsquo;s &amp;ldquo;coldblooded&amp;rdquo;
+This is something that I did a while ago, so I thought I&amp;rsquo;d just write a post about it. Here is a shell script to get every word that can be spelled with hexadecimal, sorted by length:
+cat /usr/share/dict/words | tr &amp;#34;[:upper:]&amp;#34; &amp;#34;[:lower:]&amp;#34; | grep -E &amp;#34;^[abcdeflzso]+$&amp;#34; | tr &amp;#34;lzso&amp;#34; &amp;#34;1250&amp;#34; | awk &amp;#39;{print length, &amp;#34;0x&amp;#34; $0}&amp;#39; | sort -nr -k 1 | cut -d &amp;#34; &amp;#34; -f 2 If that seems incredibly cryptic to you, don&amp;rsquo;t worry.</description>
+    </item>
+    
     <item>
       <title>Running Android</title>
       <link>https://jonot.me/posts/running-android/</link>
