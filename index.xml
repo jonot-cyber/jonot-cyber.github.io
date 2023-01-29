@@ -5,7 +5,17 @@
     <link>https://jonot.me/</link>
     <description>Recent content on Jonot&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 16 Jan 2023 09:08:41 -0500</lastBuildDate><atom:link href="https://jonot.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Jan 2023 14:47:45 -0500</lastBuildDate><atom:link href="https://jonot.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fedora Silverblue</title>
+      <link>https://jonot.me/posts/fedora-silverblue/</link>
+      <pubDate>Sun, 29 Jan 2023 14:47:45 -0500</pubDate>
+      
+      <guid>https://jonot.me/posts/fedora-silverblue/</guid>
+      <description>Since the beginning of January I have been using Fedora Silverblue on my home computer. In this article, I thought that I would explain a bit about how I use it, why, and the pros and cons of using it for general use and development
+What is Fedora Silverblue? As this website states, Fedora Silverblue is a variant of Fedora Workstation where the root filesystem is immutable, meaning you can&amp;rsquo;t change it, which makes every root installation the same.</description>
+    </item>
+    
     <item>
       <title>The longest word you can spell in hexadecimal</title>
       <link>https://jonot.me/posts/hex-words/</link>
