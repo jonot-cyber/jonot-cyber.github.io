@@ -5,7 +5,17 @@
     <link>https://jonot.me/</link>
     <description>Recent content on Jonot&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 29 Jan 2023 14:47:45 -0500</lastBuildDate><atom:link href="https://jonot.me/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Mar 2023 19:43:56 -0500</lastBuildDate><atom:link href="https://jonot.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Neovim Plugins</title>
+      <link>https://jonot.me/posts/my-neovim-plugins/</link>
+      <pubDate>Fri, 10 Mar 2023 19:43:56 -0500</pubDate>
+      
+      <guid>https://jonot.me/posts/my-neovim-plugins/</guid>
+      <description>I use a lot of different editors to write code, but my go-to is usually NeoVim. NeoVim is a fork of Vim, which is itself a clone of Vi. To start this post, I feel like I should explain why I am basically using a text editor from 1976:
+The first point is probably the most obvious, but Vim is fast. Vim is designed around doing things with a keyboard, and overall keeping your fingers on the home row, which allows you to type faster.</description>
+    </item>
+    
     <item>
       <title>Fedora Silverblue</title>
       <link>https://jonot.me/posts/fedora-silverblue/</link>

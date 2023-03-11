@@ -2,16 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jonot.me/</loc>
+    <lastmod>2023-03-10T19:43:56-05:00</lastmod>
+  </url><url>
+    <loc>https://jonot.me/posts/my-neovim-plugins/</loc>
+    <lastmod>2023-03-10T19:43:56-05:00</lastmod>
+  </url><url>
+    <loc>https://jonot.me/posts/</loc>
+    <lastmod>2023-03-10T19:43:56-05:00</lastmod>
+  </url><url>
     <loc>https://jonot.me/posts/fedora-silverblue/</loc>
     <lastmod>2023-01-29T14:47:45-05:00</lastmod>
   </url><url>
-    <loc>https://jonot.me/</loc>
-    <lastmod>2023-01-29T14:47:45-05:00</lastmod>
-  </url><url>
     <loc>https://jonot.me/tags/linux/</loc>
-    <lastmod>2023-01-29T14:47:45-05:00</lastmod>
-  </url><url>
-    <loc>https://jonot.me/posts/</loc>
     <lastmod>2023-01-29T14:47:45-05:00</lastmod>
   </url><url>
     <loc>https://jonot.me/tags/</loc>
