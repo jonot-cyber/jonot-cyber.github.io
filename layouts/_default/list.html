@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main>
+<main class="main-post-links">
     {{range where (where .Site.Pages "Kind" "page") "Section" "posts"}}
     <a class="post-link" href="{{.RelPermalink}}">
         <article>

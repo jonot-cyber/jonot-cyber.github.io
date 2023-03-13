@@ -1,13 +1,48 @@
 body {
     font-family: sans-serif;
-    margin: 10em;
+    background-color: rgb(245, 245, 245);
+}
+
+.main-post-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-holder {
+    margin: 4em;
 }
 
 .post-link {
     text-decoration: none;
     color: black;
+    background-color: white;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 1em;
+    padding-top: 0em;
+    border-radius: 8px;
+    margin-bottom: 1em;
 }
 
 img {
     width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+    margin-right: 1em;
+}
+
+.post-body {
+    color: black;
+    background-color: white;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 1em;
+    padding-top: 0em;
+    border-radius: 8px;
 }

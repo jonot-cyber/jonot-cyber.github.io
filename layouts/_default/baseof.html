@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <a href="/"><h1>{{.Site.Title}}</h1></a>
-    {{block "main" .}}{{end}}
+    <header>
+        <a href="/"><h1>{{.Site.Title}}</h1></a>
+        <a href="/posts">Posts</a>
+    </header>
+    <div class="main-holder">
+        {{block "main" .}}{{end}}
+    </div>
 </body>
 </html>
