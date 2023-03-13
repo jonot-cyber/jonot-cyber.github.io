@@ -1,7 +1,6 @@
 baseURL: "https://jonot.me/"
 title: Jonot's Blog
 paginate: 5
-theme: PaperMod
 
 enableRobotsTXT: true
 buildDrafts: false

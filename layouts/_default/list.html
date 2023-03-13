@@ -1,0 +1,12 @@
+{{ define "main" }}
+<main>
+    {{range where (where .Site.Pages "Kind" "page") "Section" "posts"}}
+    <a class="post-link" href="{{.RelPermalink}}">
+        <article>
+            <h2>{{.Title}}</h2>
+            {{.Summary}}
+        </article>
+    </a>
+    {{end}}
+</main>
+{{ end }}
