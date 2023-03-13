@@ -46,3 +46,7 @@ header a {
     padding-top: 0em;
     border-radius: 8px;
 }
+
+pre {
+    overflow-x: scroll;
+}
