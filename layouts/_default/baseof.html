@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{.Site.Title}}</title>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/output.css">
 </head>
-<body>
-    <header>
-        <a href="/"><h1>{{.Site.Title}}</h1></a>
+
+<body class="bg-slate-100">
+    <header class="w-screen shadow-lg bg-white flex flex-row text-2xl gap-4 p-2">
+        <a class="font-bold mr-8" href="/">
+            <h1>{{.Site.Title}}</h1>
+        </a>
         <a href="/posts">Posts</a>
+        <a href="/portfolio">Portfolio</a>
     </header>
-    <div class="main-holder">
+    <div>
         {{block "main" .}}{{end}}
     </div>
 </body>
+
 </html>

@@ -1,8 +1,8 @@
 {{ define "main" }}
-<main>
-    <article class="post-body">
-        <h2>{{.Title}}</h2>
-        {{.Content}}
-    </article>
+<main class="flex flex-col gap-8 m-8">
+  <article class="p-8 shadow-lg bg-white">
+    <h2 class="font-bold text-5xl mb-8">{{.Title}}</h2>
+    <span class="prose">{{.Content}}</span>
+  </article>
 </main>
 {{ end }}
