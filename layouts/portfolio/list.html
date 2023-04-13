@@ -1,13 +1,13 @@
 {{ define "main" }}
-<main class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 m-8">
+<main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 m-8">
     {{range where (where .Site.Pages "Kind" "page") "Section" "portfolio"}}
-    <article class="flex flex-col p-8 h-60 shadow-lg bg-white rounded-md border-r-8 border-{{.Params.language}}">
+    <article class="flex flex-col p-8 h-60 shadow-lg bg-white dark:bg-slate-800 dark:text-white rounded-md border-r-8 border-{{.Params.language}}">
         <h2 class="font-bold text-2xl mb-4">{{.Title}}</h2>
         <div class="grow truncate">{{.Description}}</div>
         <div class="flex flex-row gap-2 mt-4">
-            <a class="rounded-md bg-black text-white p-2" href="{{.Params.source}}">Source</a>
+            <a class="rounded-md bg-black text-white dark:bg-white dark:text-black p-2" href="{{.Params.source}}">Source</a>
             {{if .Params.link}}
-            <a class="rounded-md bg-black text-white p-2" href="{{.Params.link}}">Link</a>
+            <a class="rounded-md bg-black text-white dark:bg-white dark:text-black p-2" href="{{.Params.link}}">Link</a>
             {{end}}
         </div>
     </article>

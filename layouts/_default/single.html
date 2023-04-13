@@ -1,8 +1,8 @@
 {{ define "main" }}
 <main class="flex flex-col gap-8 m-8">
-  <article class="p-8 shadow-lg bg-white">
+  <article class="p-8 shadow-lg rounded-md bg-white dark:bg-slate-800 dark:text-white">
     <h2 class="font-bold text-5xl mb-8">{{.Title}}</h2>
-    <span class="prose">{{.Content}}</span>
+    <span class="prose dark:prose-invert">{{.Content}}</span>
   </article>
 </main>
 {{ end }}
