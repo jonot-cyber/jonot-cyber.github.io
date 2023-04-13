@@ -1,0 +1,24 @@
+{{ define "main" }}
+<main class="grid grid-cols-2 md:grid-cols-4 gap-8 m-8">
+    {{range where (where .Site.Pages "Kind" "page") "Section" "portfolio"}}
+    <article class="p-8 shadow-lg bg-white rounded-md border-t-2 border-{{.Params.language}}">
+        <h2 class="font-bold text-2xl mb-4">{{.Title}}</h2>
+        {{.Description}}
+    </article>
+    {{end}}
+</main>
+{{ end }}
+
+{{/* this is required so tailwind knows that it needs to include these classes */}}
+{{ define "tailwindfix" }}
+<p class="border-typescript"></p>
+<p class="border-shell"></p>
+<p class="border-lua"></p>
+<p class="border-haskell"></p>
+<p class="border-html"></p>
+<p class="border-python"></p>
+<p class="border-go"></p>
+<p class="border-javascript"></p>
+<p class="border-java"></p>
+<p class="border-cpp"></p>
+{{ end }}
