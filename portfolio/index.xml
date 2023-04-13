@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Jonot&#39;s Blog</title>
+    <link>https://jonot.me/portfolio/</link>
+    <description>Recent content in Portfolios on Jonot&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 06 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://jonot.me/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neovim</title>
+      <link>https://jonot.me/portfolio/neovim/</link>
+      <pubDate>Thu, 06 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/neovim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CodingBat Haskell</title>
+      <link>https://jonot.me/portfolio/codingbat-haskell/</link>
+      <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/codingbat-haskell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jonot.me</title>
+      <link>https://jonot.me/portfolio/jonot-cyber.github.io/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/jonot-cyber.github.io/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Offline Editor</title>
+      <link>https://jonot.me/portfolio/offline-editor/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/offline-editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sitelen Pona Tester</title>
+      <link>https://jonot.me/portfolio/sitelen-pona-tester/</link>
+      <pubDate>Tue, 17 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/sitelen-pona-tester/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ideas</title>
+      <link>https://jonot.me/portfolio/ideas/</link>
+      <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/ideas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sitelen</title>
+      <link>https://jonot.me/portfolio/sitelen/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/sitelen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>is-even-checker</title>
+      <link>https://jonot.me/portfolio/is-even-checker/</link>
+      <pubDate>Thu, 29 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/is-even-checker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Curse&#43;</title>
+      <link>https://jonot.me/portfolio/curseplus/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/curseplus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pitcher</title>
+      <link>https://jonot.me/portfolio/pitcher/</link>
+      <pubDate>Sat, 17 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/pitcher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recycle Reminder</title>
+      <link>https://jonot.me/portfolio/recycle-reminder/</link>
+      <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/recycle-reminder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timeport</title>
+      <link>https://jonot.me/portfolio/timeport/</link>
+      <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/timeport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wheatleycrab</title>
+      <link>https://jonot.me/portfolio/wheatleycrab/</link>
+      <pubDate>Fri, 16 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/wheatleycrab/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cubiks.js</title>
+      <link>https://jonot.me/portfolio/cubiks.js/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/cubiks.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reader Mode</title>
+      <link>https://jonot.me/portfolio/reader-mode/</link>
+      <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/reader-mode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>chmod</title>
+      <link>https://jonot.me/portfolio/chmod/</link>
+      <pubDate>Sat, 03 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/chmod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TimeWaster</title>
+      <link>https://jonot.me/portfolio/timewaster/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/timewaster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>randrange</title>
+      <link>https://jonot.me/portfolio/randrange/</link>
+      <pubDate>Sat, 26 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/randrange/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conway&#43;&#43;</title>
+      <link>https://jonot.me/portfolio/conway-plus-plus/</link>
+      <pubDate>Tue, 22 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/conway-plus-plus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pokerus</title>
+      <link>https://jonot.me/portfolio/pokerus/</link>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jonot.me/portfolio/pokerus/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
