@@ -1,8 +1,8 @@
 {{ define "main" }}
-<main class="flex flex-col gap-8 m-8">
-  <article class="p-8 shadow-lg rounded-md bg-white dark:bg-slate-800 dark:text-white">
-    <div class="mb-8">
-      <h2 class="font-bold text-5xl mb-4">{{.Title}}</h2>
+<main class="post-main">
+  <article class="post-body">
+    <div class="post-header">
+      <h2 class="post-title">{{.Title}}</h2>
       <div>{{.Date.Format "2006-01-02"}}</div>
       <div>
       {{if eq .ReadingTime 1}}
@@ -12,7 +12,7 @@
       {{end}}
       </div>
     </div>
-    <span class="prose dark:prose-invert">{{.Content}}</span>
+    <span class="prose">{{.Content}}</span>
   </article>
 </main>
 {{ end }}

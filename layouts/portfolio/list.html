@@ -1,32 +1,16 @@
 {{ define "main" }}
-<main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 m-8">
+<main class="portfolio-main">
     {{range where (where .Site.Pages "Kind" "page") "Section" "portfolio"}}
-    <article class="flex flex-col p-8 h-60 shadow-lg bg-white dark:bg-slate-800 dark:text-white rounded-md border-r-8 border-{{.Params.language}}">
-        <h2 class="font-bold text-2xl mb-4">{{.Title}}</h2>
-        <div class="grow truncate">{{.Description}}</div>
-        <div class="flex flex-row gap-2 mt-4">
-            <a class="rounded-md bg-black text-white dark:bg-white dark:text-black p-2" href="{{.Params.source}}">Source</a>
+    <article class="portfolio-item border-{{.Params.language}}">
+        <h2 class="portfolio-title">{{.Title}}</h2>
+        <div class="portfolio-description">{{.Description}}</div>
+        <div class="portfolio-buttons">
+            <a class="portfolio-source" href="{{.Params.source}}">Source</a>
             {{if .Params.link}}
-            <a class="rounded-md bg-black text-white dark:bg-white dark:text-black p-2" href="{{.Params.link}}">Link</a>
+            <a class="portfolio-link" href="{{.Params.link}}">Link</a>
             {{end}}
         </div>
     </article>
     {{end}}
 </main>
-{{ end }}
-
-{{/* this is required so tailwind knows that it needs to include these classes */}}
-{{/* yes, i am aware that this is stupid */}}
-{{ define "tailwindfix" }}
-<p class="border-typescript"></p>
-<p class="border-shell"></p>
-<p class="border-lua"></p>
-<p class="border-haskell"></p>
-<p class="border-html"></p>
-<p class="border-python"></p>
-<p class="border-go"></p>
-<p class="border-javascript"></p>
-<p class="border-java"></p>
-<p class="border-cpp"></p>
-<p class="border-c"></p>
 {{ end }}
