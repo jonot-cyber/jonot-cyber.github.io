@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{.Site.Title}}</title>
     {{ $style := resources.Get "style.css" | resources.Minify }}
-    <link rel="stylesheet" href="{{ $style.Permalink }}" />
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
     <link rel="icon" href="/favicon.png" />
   </head>
 
