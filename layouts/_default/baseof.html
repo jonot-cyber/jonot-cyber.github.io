@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{.Site.Title}}</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="icon" href="/favicon.png">
-</head>
+    {{ $style := resources.Get "style.css" | resources.Minify }}
+    <link rel="stylesheet" href="{{ $style.Permalink }}" />
+    <link rel="icon" href="/favicon.png" />
+  </head>
 
-<body>
+  <body>
     <header class="site-header">
-        <a class="header-title" href="/">
-            <h1>{{.Site.Title}}</h1>
-        </a>
-        <a href="/posts">Posts</a>
-        <a href="/portfolio">Portfolio</a>
-        <a href="https://github.com/jonot-cyber">GitHub</a>
+      <a class="header-title" href="/">
+        <h1>{{.Site.Title}}</h1>
+      </a>
+      <a href="/posts">Posts</a>
+      <a href="/portfolio">Portfolio</a>
+      <a href="https://github.com/jonot-cyber">GitHub</a>
     </header>
-    <div>
-        {{block "main" .}}{{end}}
-    </div>
-</body>
-
+    <div>{{block "main" .}}{{end}}</div>
+  </body>
 </html>
