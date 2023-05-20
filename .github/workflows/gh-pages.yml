@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
 
       - name: Build
-        run: 'mkdir public && echo ''<a href="https://jonot.me">https://jonot.me</a>'' > public/index.html'
+        run: 'mkdir public && echo ''<a href="https://jonot.me">https://jonot.me</a>'' > public/index.html && echo "io.jonot.me" > public/CNAME'
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
