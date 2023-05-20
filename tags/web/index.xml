@@ -25,7 +25,8 @@ One of the main principles of Toki Pona is minimalism.</description>
       <pubDate>Mon, 09 Jan 2023 15:03:00 -0500</pubDate>
       
       <guid>https://jonot.me/posts/video-format-comparison/</guid>
-      <description>The GIF file format was created in 1987, and it definitely shows. Despite being so widespread on the internet, it has several issues. First of all is color. Most images that you will see on the internet use 24-bit color. Each pixel has a red, green, and blue component, all of which can range from 0-255. This gives you a total of 16,777,216 possible colors. So how many does GIF have?</description>
+      <description>IMPORTANT NOTE I have repeatedly had problems with this article due to the large file size of the videos. At this point I have decided to reduce all of the videos to 1 second to reduce this. The text all applies still, but you&amp;rsquo;ll have to encode the files yourself if you want to see what they look like in full.
+The GIF file format was created in 1987, and it definitely shows.</description>
     </item>
     
     <item>
