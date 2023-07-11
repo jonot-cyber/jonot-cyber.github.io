@@ -1,7 +1,7 @@
 ---
 title: "Shiny Counter"
 date: 2023-07-10T19:55:13-04:00
-draft: true
+draft: false
 ---
 Recently I've been getting back into Pokémon. Specifically, I've been
 playing Pokémon Blaze Black 2 Redux, which is a rom hack of Pokémon
