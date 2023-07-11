@@ -153,6 +153,7 @@ body {
 
 .post-body {
   padding: 2rem;
+  font-size: 1.1rem;
   background-color: var(--bg-color-two);
   border: 0.1rem solid var(--border-color);
   color: var(--text-color);
@@ -220,7 +221,7 @@ body {
 
 /* Formatting for actual pages */
 .prose {
-  line-height: 1.5rem;
+  line-height: 2rem;
 }
 
 .prose h1 {
@@ -277,6 +278,10 @@ body {
 @media (min-width: 1024px) {
   .portfolio-main {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  
+  .post-body {
+    padding: 4rem;
   }
 }
 
