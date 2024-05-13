@@ -199,9 +199,9 @@ body {
 
 .portfolio-description {
   flex-grow: 1;
+  text-wrap: wrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .portfolio-buttons {
@@ -328,4 +328,8 @@ body {
 
 .border-typescript {
   border-right-color: rgb(43 116 137);
+}
+
+.border-rust {
+  border-right-color: rgb(222,165,132);
 }

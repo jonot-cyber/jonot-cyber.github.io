@@ -3,7 +3,7 @@
     {{range where (where .Site.Pages "Kind" "page") "Section" "portfolio"}}
     <article class="portfolio-item border-{{.Params.language}}">
         <h2 class="portfolio-title">{{.Title}}</h2>
-        <div class="portfolio-description">{{.Description}}</div>
+        <p class="portfolio-description">{{.Description}}</p>
         <div class="portfolio-buttons">
             <a class="portfolio-source" href="{{.Params.source}}">Source</a>
             {{if .Params.link}}
