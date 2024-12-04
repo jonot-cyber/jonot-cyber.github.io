@@ -133,4 +133,4 @@ Well anyways. After I figured this out, I still had issues making sure my sprite
 
 As it would turn out, the Game Boy Advance has quite a bit of "weird memory" that you have to work around in weird ways. I know that this is a long shot, but it would be nice if there was some way to specify how memory in certain address ranges need to be addressed.
 
-Maybe this is a sign that I just need to write my own programming language. Worst case scenario, at least I'd have an excuse for why I don't update this website for almost a year the next time.x34
+Maybe this is a sign that I just need to write my own programming language. Worst case scenario, at least I'd have an excuse for why I don't update this website for almost a year the next time.
