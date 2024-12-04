@@ -1,7 +1,7 @@
 ---
 title: "Why I Wrote a Game Boy Advance Game in Zig"
 date: 2024-12-03T22:44:17-05:00
-draft: true
+draft: false
 ---
 The Game Boy Advance is an interesting game console. It has a modern-style CPU (32-bit ARM, lots of registers), but uses an old-fashioned tile based renderer like how the NES did it in the 80s. Don't get me wrong, since its one of Nintendo's last tile-based systems, they took the idea as far as it can go with fancy features like affine transformations, transparency, and effects applied to sprites. But at its core, it occupies a very unique space:
 
