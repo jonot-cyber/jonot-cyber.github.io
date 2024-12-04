@@ -333,3 +333,7 @@ body {
 .border-rust {
   border-right-color: rgb(222,165,132);
 }
+
+.border-zig {
+  border-right-color: rgb(236,145,92);
+}
