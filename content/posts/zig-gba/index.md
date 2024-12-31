@@ -11,7 +11,7 @@ The only other major occupant of that quadrant is the Nintendo DS, and while I h
 
 ![A screenshot of 2048 running in a Game Boy Advance Emulator](./game.png)
 
-I have countless hours on games about numbers in squares and rules on how they combine in rows (Picross, Picross 3D, Minesweeper), so 2048 was a good choice for a project. You can try the game out in an emulator [here]().
+I have countless hours on games about numbers in squares and rules on how they combine in rows (Picross, Picross 3D, Minesweeper), so 2048 was a good choice for a project. You can try the game out in an emulator [here](https://github.com/jonot-cyber/2048-zig/releases/tag/1.0).
 
 But the most interesting thing about this project to me was the language. My initial play-projects with the Game Boy Advance were written in C++, but I wrote my first full game in Zig. And that's a bit weird. First of all, its a very niche language, its still in beta, and it was made 15 years after the Game Boy Advance released in Japan. But even though it's not the most popular, I think that Zig was great for this project, and that is what this blog post will be about.
 
