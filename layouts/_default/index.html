@@ -4,7 +4,9 @@
     <a class="article-link" href="{{.RelPermalink}}">
         <article>
             <h2 class="summary-title">{{.Title}}</h2>
-            {{.Summary}}
+            <span class="article-date">{{.Date | time.Format "2006-01-02"}}</span>
+            <span class="article-length">~{{.ReadingTime}} minutes</span>
+            <!-- {{.Summary}} -->
         </article>
     </a>
     {{end}}

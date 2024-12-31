@@ -80,6 +80,12 @@ pre {
   margin: 0;
 }
 
+.center-image {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 img,
 svg,
 video,
@@ -284,6 +290,14 @@ body {
   .post-body {
     padding: 4rem;
   }
+}
+
+.article-date {
+  float: left;
+}
+
+.article-length {
+  float: right;
 }
 
 /* Used in the portfolio. Should line up with GitHub colors. */
