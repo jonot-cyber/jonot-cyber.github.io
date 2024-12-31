@@ -1,0 +1,3 @@
+{{ $opts := merge .Options (dict "style" "catppuccin-mocha") }}
+{{ $result := transform.HighlightCodeBlock . $opts }}
+{{ $result.Wrapped }}
